@@ -16,7 +16,7 @@ public class DemoReponseConfig {
 	
 	@Bean
 	public DemoResponse response() {
-		DemoResponse response = new DemoResponse(200, "Hello World");
+		DemoResponse response = new DemoResponse(200, "Hello Raju");
 		return response;
 	}
 }
